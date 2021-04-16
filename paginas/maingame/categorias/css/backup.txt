@@ -1,0 +1,206 @@
+<ScrollView style={style.categoria} showsVerticalScrollIndicator={false} >
+        <View style={style.containercategoria}>
+        <View style={style.categoria_icones}>
+         <View>
+             <Image 
+             style={style.categoria_img}
+             resizeMode="cover"
+             source={{
+                 uri:'https://i.ibb.co/yWcdpn1/frutas-4.png'
+             }}
+             ></Image>
+         </View> 
+         <Text style={style.categoria_nome}>Frutas</Text> 
+        </View>
+        <View style={style.categoria_icones}>
+         <View>
+         <Image 
+             style={style.categoria_img}
+             resizeMode="cover"
+             source={{
+                 uri:'https://i.ibb.co/qjjZsyk/vegetais.png'
+             }}
+             />
+         </View> 
+         <Text style={style.categoria_nome}>Vegetais</Text> 
+        </View>
+        <View style={style.categoria_icones}>
+         <View>
+             <Image 
+             style={style.categoria_img}
+             resizeMode="cover"
+             source={{
+                 uri:'https://i.ibb.co/cLXNy7G/Veiculos.png'
+             }}
+             ></Image>
+         </View> 
+         <Text style={style.categoria_nome}>Veiculos</Text> 
+        </View>
+        <View style={style.categoria_icones}>
+         <View>
+             <Image 
+             style={style.categoria_img}
+             resizeMode="cover"
+             source={{
+                 uri:'https://i.ibb.co/51J7fFb/Estilos-musicais.png'
+             }}
+             ></Image>
+         </View> 
+         <Text style={style.categoria_nome}>Estilos Musicais</Text> 
+        </View>
+        <View style={style.categoria_icones}>
+         <View>
+             <Image 
+               resizeMode="cover"
+             style={style.categoria_img}
+             source={{
+                 uri:'https://i.ibb.co/Jxn2kQ9/bebidas.png'
+             }}
+             ></Image>
+         </View> 
+         <Text style={style.categoria_nome}>Bebidas</Text> 
+        </View>
+        <View style={style.categoria_icones}>
+         <View>
+             <Image 
+             style={style.categoria_img}
+             resizeMode="cover"
+             source={{
+                 uri:'https://i.ibb.co/sP6yWWg/Saude.png'
+             }}
+             ></Image>
+         </View> 
+         <Text style={style.categoria_nome}>Saude</Text> 
+        </View>
+        <View style={style.categoria_icones}>
+         <View>
+             <Image 
+             style={style.categoria_img}
+             resizeMode="cover"
+             source={{
+                 uri:'https://images2.alphacoders.com/103/1038530.jpg'
+             }}
+             ></Image>
+         </View> 
+         <Text style={style.categoria_nome}>Miranha</Text> 
+        </View>
+        </View>
+        </ScrollView>
+
+
+const style = StyleSheet.create({
+    iconame:{
+        fontSize: 40,
+        backgroundColor: '#31f5f5',
+        width: '100%',
+        height:'100%',
+        textAlign: 'center',
+        borderRadius: 80,
+        paddingTop: 25,
+        color: 'white'
+    },
+    containercategoria: {
+        display:'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        flexWrap: 'wrap',
+        width: 280, 
+    },
+    categoria_img: {
+        width: 90,
+        height: 90,
+        borderColor: 'red',
+        borderWidth: 0,
+        borderRadius: 80,
+        marginBottom: 0,
+        marginTop: -20,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    categoria: {
+           width: 280, 
+           display: 'flex',
+           flexWrap: 'wrap',
+           borderWidth: 0,
+           flexDirection: 'row',
+    },
+    categoria_nome:{
+    color: '#00537A',
+     fontSize: 19,
+     fontWeight: 'bold',
+     textAlign: 'center',
+    },
+    categoria_icones:{
+        display:'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop: 25,
+        width: 125,
+        height: 150,
+        borderWidth: 0,
+        marginTop: 20,
+        marginBottom:10
+    },
+    coraçoes: {
+        width: '35%',
+        display: 'flex',
+        height: 40,
+        marginRight: '55%',
+        marginTop: 10,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+
+    header: {
+        width: '100%',
+        height: 45, 
+        backgroundColor: '#8ECAE6',
+    },
+      btnentrar: {
+         display: 'flex',
+         justifyContent: 'center',
+         alignItems: 'center',
+         width: 250, 
+         height: 50,
+         borderWidth: 1,
+         borderColor: 'red',
+         borderRadius: 15,
+         backgroundColor: '#8ECAE6',     
+      },
+      test: {
+          marginTop: 50,
+      },
+      safe: {
+        width: '100%',
+        height: '100%',
+        marginTop: 20,
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        backgroundColor: '#FFF',
+    },
+    textalert: {
+        fontSize: 18,
+        marginBottom: 5,
+        textAlign: 'center',
+        color: 'red',
+        fontWeight: 'bold',
+    },
+    containerimg: {
+        top: '85%',
+        left: '0%',
+        position: 'absolute',
+        zIndex: -1,   
+        borderColor: '#FFB703',
+        margin: 0,
+        
+    },
+    limit: {
+        width: '100%',
+        height: '10%',
+        borderBottomWidth:1,
+        borderColor: '#FFB703',
+    },
+})

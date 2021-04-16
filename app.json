@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "tentativa_dois",
+    "slug": "tentativa_dois",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/imgs/icon.png",
+    "splash": {
+      "image": "./assets/imgs/splasharte3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f59e3d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
